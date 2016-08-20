@@ -1,4 +1,7 @@
 #!/bin/bash
+#Author: Vinod.N K
+#Distro : Linux -Centos, Rhel, and any fedora
+#Plugin : Nagios or Sensu plugin 
 USAGE="`basename $0` [-w|--warning]<percent free> [-c|--critical]<percent free>"
 THRESHOLD_USAGE="WARNING threshold must be greater than CRITICAL: `basename $0` $*"
 calc=/tmp/memcalc
